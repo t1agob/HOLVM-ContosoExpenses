@@ -85,7 +85,7 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "fileUris": [
-            "https://fasttrackforazure.blob.core.windows.net/fta-offsite/post-deploy.ps1"
+            "https://github.com/t1agob/HOLVM-ContosoExpenses/blob/master/post-deploy.ps1"
           ]
         },
         "protectedSettings": {

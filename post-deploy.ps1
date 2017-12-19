@@ -19,7 +19,7 @@ New-Item -ItemType Directory c:\POC
 New-Item -ItemType Directory c:\temp
 
 # Download ContosoExpenses Project
-Invoke-WebRequest "https://fasttrackforazure.blob.core.windows.net/sourcecode/Contoso.Expenses.zip" -OutFile c:\temp\Contoso.Expenses.zip
+Invoke-WebRequest "https://github.com/t1agob/HOLVM-ContosoExpenses/blob/master/source/Contoso.Expenses.zip" -OutFile c:\temp\Contoso.Expenses.zip
 Expand-Archive c:\temp\Contoso.Expenses.zip c:\POC
 
 # Download & Install Storage Explorer
